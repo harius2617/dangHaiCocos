@@ -1,179 +1,98 @@
-2021-12-06T08:41:25.073Z - normal: Load ~/.CocosCreator/settings.json
-2021-12-06T08:41:25.117Z - normal: Initializing Asset Database
-2021-12-06T08:41:25.119Z - normal: checking language setting...
-2021-12-06T08:41:25.119Z - normal: Language: en
-2021-12-06T08:41:25.638Z - success: preview server running at http://localhost:7456
-2021-12-06T08:41:25.654Z - success: protocol editor-framework registered
-2021-12-06T08:41:25.654Z - success: protocol app registered
-2021-12-06T08:41:25.654Z - success: protocol theme registered
-2021-12-06T08:41:25.654Z - success: protocol packages registered
-2021-12-06T08:41:25.654Z - success: protocol uuid registerred
-2021-12-06T08:41:25.654Z - success: protocol db registerred
-2021-12-06T08:41:25.654Z - success: protocol thumbnail registerred
-2021-12-06T08:41:25.654Z - success: protocol unpack registerred
-2021-12-06T08:41:25.654Z - success: protocol disable-commonjs registerred
-2021-12-06T08:41:26.760Z - normal: connected!
-2021-12-06T08:41:26.761Z - normal: Check project /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2
-2021-12-06T08:41:26.762Z - normal: Initializing project /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2
-2021-12-06T08:41:27.024Z - normal: Initializing Cocos2d
-2021-12-06T08:41:27.481Z - normal: Initializing engine extends
-2021-12-06T08:41:27.502Z - success: alipay-adapter loaded
-2021-12-06T08:41:27.510Z - success: asset-db-debugger loaded
-2021-12-06T08:41:27.515Z - success: baidu-adapter loaded
-2021-12-06T08:41:27.518Z - success: color-picker loaded
-2021-12-06T08:41:27.630Z - success: fb-audience-network loaded
-2021-12-06T08:41:27.677Z - success: fb-live-stream loaded
-2021-12-06T08:41:27.680Z - success: google-play-instant loaded
-2021-12-06T08:41:27.683Z - success: huawei-runtime loaded
-2021-12-06T08:41:27.847Z - success: cpk-publish loaded
-2021-12-06T08:41:27.848Z - success: jsb-adapter loaded
-2021-12-06T08:41:27.851Z - success: oppo-runtime loaded
-2021-12-06T08:41:27.855Z - success: package-manager loaded
-2021-12-06T08:41:27.947Z - success: qqplay-adapter loaded
-2021-12-06T08:41:27.948Z - success: runtime-dev-tools loaded
-2021-12-06T08:41:27.952Z - success: sdkbox loaded
-2021-12-06T08:41:27.956Z - success: tester loaded
-2021-12-06T08:41:27.960Z - success: ui-kit-preview-extra loaded
-2021-12-06T08:41:27.962Z - success: ui-kit-preview loaded
-2021-12-06T08:41:27.965Z - success: ui-kit loaded
-2021-12-06T08:41:27.970Z - success: vivo-runtime loaded
-2021-12-06T08:41:27.971Z - success: weapp-adapter loaded
-2021-12-06T08:41:27.972Z - success: xiaomi-adapter loaded
-2021-12-06T08:41:27.974Z - success: alipay-minigame loaded
-2021-12-06T08:41:28.007Z - success: assets loaded
-2021-12-06T08:41:28.010Z - success: builder loaded
-2021-12-06T08:41:28.182Z - success: cocos-services loaded
-2021-12-06T08:41:28.187Z - success: console loaded
-2021-12-06T08:41:28.211Z - success: fb-instant-games loaded
-2021-12-06T08:41:28.214Z - success: game-window loaded
-2021-12-06T08:41:28.215Z - success: google-instant-games loaded
-2021-12-06T08:41:28.218Z - success: hierarchy loaded
-2021-12-06T08:41:28.221Z - success: inspector loaded
-2021-12-06T08:41:28.222Z - success: keystore loaded
-2021-12-06T08:41:28.226Z - success: node-library loaded
-2021-12-06T08:41:28.227Z - success: package-asset loaded
-2021-12-06T08:41:28.228Z - success: preferences loaded
-2021-12-06T08:41:28.231Z - success: project-exporter loaded
-2021-12-06T08:41:28.235Z - success: project-importer loaded
-2021-12-06T08:41:28.238Z - success: project-settings loaded
-2021-12-06T08:41:28.242Z - success: scene loaded
-2021-12-06T08:41:28.245Z - success: simulator-debugger loaded
-2021-12-06T08:41:28.246Z - success: sprite-editor loaded
-2021-12-06T08:41:28.249Z - success: store loaded
-2021-12-06T08:41:28.256Z - success: timeline loaded
-2021-12-06T08:41:28.260Z - success: xiaomi-runtime loaded
-2021-12-06T08:41:32.011Z - normal: Loading packages
-2021-12-06T08:41:32.016Z - normal: Watching packages
-2021-12-06T08:41:32.103Z - normal: Run Application
-2021-12-06T08:41:36.598Z - info: Cocos Services load base data!
-2021-12-06T09:08:02.024Z - failed: load script [/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/temp/quick-scripts/assets/Script/createAcc.js] failed : ReferenceError: tooltip1Label is not defined
-    at __define (/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/temp/quick-scripts/assets/Script/createAcc.js:21:24)
-    at /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/temp/quick-scripts/assets/Script/createAcc.js:63:13
-    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/temp/quick-scripts/assets/Script/createAcc.js:70:11)
-    at Object.<anonymous> (/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/temp/quick-scripts/assets/Script/createAcc.js:73:3)
-    at Module._compile (module.js:571:32)
-    at Object.Module._extensions..js (module.js:580:10)
-    at Module.load (module.js:488:32)
-    at tryModuleLoad (module.js:447:12)
-    at Function.Module._load (module.js:439:3)
-    at Module.require (module.js:498:17)
-2021-12-06T09:48:11.962Z - normal: Start building with options : {
-  "actualPlatform": "web-mobile",
-  "android-instant": {
-    "REMOTE_SERVER_ROOT": "",
-    "host": "",
-    "pathPattern": "",
-    "recordPath": "",
-    "scheme": "https",
-    "skipRecord": false
-  },
-  "apiLevel": "",
-  "appABIs": [],
-  "appBundle": false,
-  "baidugame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "testappid",
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "buildPath": "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build",
-  "debug": false,
-  "dest": "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-mobile",
-  "embedWebDebugger": false,
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.helloworld",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait",
-    "zip": false
-  },
-  "scenes": [
-    "2d2f792f-a40c-49bb-a189-ed176a246e49"
-  ],
-  "sourceMaps": false,
-  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
-  "template": "link",
-  "title": "hello_world",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "auto",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "orientation": "portrait",
-    "separate_engine": false,
-    "subContext": ""
-  },
-  "xxteaKey": "0602c2fd-8690-49",
-  "zipCompressJs": true,
-  "project": "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2",
-  "projectName": "hello_world",
-  "debugBuildWorker": false
-}
-2021-12-06T09:48:11.966Z - normal: Building /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2
-2021-12-06T09:48:11.966Z - normal: Destination /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-mobile
-2021-12-06T09:48:12.054Z - normal: Delete /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-mobile/subpackages/**/*,/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-mobile/**/*
-2021-12-06T09:48:13.346Z - normal: Start building assets
-2021-12-06T09:48:13.346Z - normal: Start spawn build-worker
-2021-12-06T09:48:13.931Z - normal: Finish spawn build-worker
-2021-12-06T09:48:13.931Z - normal: Start init build-worker
-2021-12-06T09:48:15.895Z - normal: Finish init build-worker
-2021-12-06T09:48:15.895Z - normal: Start build-assets in worker
-2021-12-06T09:48:16.138Z - normal: Finish build-assets in worker
-2021-12-06T09:48:16.141Z - normal: Finish building assets
-2021-12-06T09:48:16.147Z - normal: Start building plugin scripts
-2021-12-06T09:48:16.172Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2021-12-06T09:48:16.180Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-mobile/template/index.html
-2021-12-06T09:48:16.195Z - normal: Built to "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-mobile" successfully
-2021-12-06T09:53:42.325Z - error: scene not saved. Please build project after saveing project.
-    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:7875)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
+2021-12-06T15:01:42.341Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-06T15:01:43.601Z - normal: Initializing Asset Database
+2021-12-06T15:01:43.626Z - normal: checking language setting...
+2021-12-06T15:01:43.626Z - normal: Language: en
+2021-12-06T15:01:44.932Z - success: preview server running at http://localhost:7456
+2021-12-06T15:01:44.932Z - success: protocol editor-framework registered
+2021-12-06T15:01:44.932Z - success: protocol app registered
+2021-12-06T15:01:44.932Z - success: protocol theme registered
+2021-12-06T15:01:44.932Z - success: protocol packages registered
+2021-12-06T15:01:44.932Z - success: protocol uuid registerred
+2021-12-06T15:01:44.932Z - success: protocol db registerred
+2021-12-06T15:01:44.932Z - success: protocol thumbnail registerred
+2021-12-06T15:01:44.932Z - success: protocol unpack registerred
+2021-12-06T15:01:44.932Z - success: protocol disable-commonjs registerred
+2021-12-06T15:01:47.953Z - normal: failed to connect login server due to request timeout
+2021-12-06T15:01:47.953Z - normal: Check project D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2
+2021-12-06T15:01:47.953Z - normal: Initializing project D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2
+2021-12-06T15:01:48.640Z - normal: Initializing Cocos2d
+2021-12-06T15:01:49.948Z - normal: Initializing engine extends
+2021-12-06T15:01:49.991Z - success: alipay-adapter loaded
+2021-12-06T15:01:49.999Z - success: asset-db-debugger loaded
+2021-12-06T15:01:50.002Z - success: baidu-adapter loaded
+2021-12-06T15:01:50.007Z - success: color-picker loaded
+2021-12-06T15:01:50.267Z - success: fb-audience-network loaded
+2021-12-06T15:01:50.370Z - success: fb-live-stream loaded
+2021-12-06T15:01:50.378Z - success: google-play-instant loaded
+2021-12-06T15:01:50.388Z - success: huawei-runtime loaded
+2021-12-06T15:01:50.762Z - success: cpk-publish loaded
+2021-12-06T15:01:50.764Z - success: jsb-adapter loaded
+2021-12-06T15:01:50.773Z - success: oppo-runtime loaded
+2021-12-06T15:01:50.779Z - success: package-manager loaded
+2021-12-06T15:01:50.976Z - success: qqplay-adapter loaded
+2021-12-06T15:01:50.979Z - success: runtime-dev-tools loaded
+2021-12-06T15:01:50.985Z - success: sdkbox loaded
+2021-12-06T15:01:50.989Z - success: tester loaded
+2021-12-06T15:01:50.992Z - success: ui-kit-preview-extra loaded
+2021-12-06T15:01:50.995Z - success: ui-kit-preview loaded
+2021-12-06T15:01:50.998Z - success: ui-kit loaded
+2021-12-06T15:01:51.007Z - success: vivo-runtime loaded
+2021-12-06T15:01:51.009Z - success: weapp-adapter loaded
+2021-12-06T15:01:51.011Z - success: xiaomi-adapter loaded
+2021-12-06T15:01:51.016Z - success: alipay-minigame loaded
+2021-12-06T15:01:51.089Z - success: assets loaded
+2021-12-06T15:01:51.092Z - success: builder loaded
+2021-12-06T15:01:51.504Z - success: cocos-services loaded
+2021-12-06T15:01:51.518Z - success: console loaded
+2021-12-06T15:01:51.571Z - success: fb-instant-games loaded
+2021-12-06T15:01:51.575Z - success: game-window loaded
+2021-12-06T15:01:51.578Z - success: google-instant-games loaded
+2021-12-06T15:01:51.584Z - success: hierarchy loaded
+2021-12-06T15:01:51.588Z - success: inspector loaded
+2021-12-06T15:01:51.590Z - success: keystore loaded
+2021-12-06T15:01:51.597Z - success: node-library loaded
+2021-12-06T15:01:51.599Z - success: package-asset loaded
+2021-12-06T15:01:51.601Z - success: preferences loaded
+2021-12-06T15:01:51.603Z - success: project-exporter loaded
+2021-12-06T15:01:51.607Z - success: project-importer loaded
+2021-12-06T15:01:51.611Z - success: project-settings loaded
+2021-12-06T15:01:51.616Z - success: scene loaded
+2021-12-06T15:01:51.618Z - success: simulator-debugger loaded
+2021-12-06T15:01:51.621Z - success: sprite-editor loaded
+2021-12-06T15:01:51.626Z - success: store loaded
+2021-12-06T15:01:51.633Z - success: timeline loaded
+2021-12-06T15:01:51.643Z - success: xiaomi-runtime loaded
+2021-12-06T15:01:55.813Z - info: Cocos Services load base data!
+2021-12-06T15:02:03.343Z - normal: Loading packages
+2021-12-06T15:02:03.367Z - normal: Watching packages
+2021-12-06T15:02:04.553Z - normal: Run Application
+2021-12-06T16:51:20.437Z - success: huawei-runtime unloaded
+2021-12-06T16:51:20.462Z - success: huawei-runtime loaded
+2021-12-06T16:51:20.564Z - success: cpk-publish unloaded
+2021-12-06T16:51:20.566Z - success: huawei-runtime unloaded
+2021-12-06T16:51:20.567Z - success: oppo-runtime unloaded
+2021-12-06T16:51:20.583Z - success: cpk-publish loaded
+2021-12-06T16:51:20.583Z - success: huawei-runtime loaded
+2021-12-06T16:51:20.585Z - success: oppo-runtime loaded
+2021-12-06T16:51:20.639Z - success: vivo-runtime unloaded
+2021-12-06T16:51:20.640Z - success: cpk-publish unloaded
+2021-12-06T16:51:20.642Z - success: oppo-runtime unloaded
+2021-12-06T16:51:20.653Z - success: vivo-runtime loaded
+2021-12-06T16:51:20.653Z - success: cpk-publish loaded
+2021-12-06T16:51:20.654Z - success: oppo-runtime loaded
+2021-12-06T16:51:20.706Z - success: vivo-runtime unloaded
+2021-12-06T16:51:20.712Z - success: vivo-runtime loaded
+2021-12-06T16:51:50.638Z - error: scene not saved. Please build project after saveing project.
+    at Editor.Ipc.sendToPanel (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:7875)
+    at EventEmitter.o.on.n (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:3757)
     at emitMany (events.js:127:13)
     at EventEmitter.emit (events.js:204:7)
-2021-12-06T09:53:45.239Z - error: scene not saved. Please build project after saveing project.
-    at Editor.Ipc.sendToPanel (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor/builtin/builder/panel/builder.js:1:7875)
-    at EventEmitter.o.on.n (/Applications/CocosCreator.app/Contents/Resources/app.asar/editor-framework/lib/renderer/ipc.js:1:3757)
+2021-12-06T16:51:55.043Z - error: scene not saved. Please build project after saveing project.
+    at Editor.Ipc.sendToPanel (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor\builtin\builder\panel\builder.js:1:7875)
+    at EventEmitter.o.on.n (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\editor-framework\lib\renderer\ipc.js:1:3757)
     at emitMany (events.js:127:13)
     at EventEmitter.emit (events.js:204:7)
-2021-12-06T09:53:58.169Z - normal: Start building with options : {
+2021-12-06T16:52:12.134Z - normal: Start building with options : {
   "actualPlatform": "web-desktop",
   "android-instant": {
     "REMOTE_SERVER_ROOT": "",
@@ -192,9 +111,9 @@
     "orientation": "portrait",
     "subContext": ""
   },
-  "buildPath": "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build",
+  "buildPath": "D:\\IT\\Gemi\\cocos\\week2\\dangHaiCocos-main\\bai2\\build",
   "debug": false,
-  "dest": "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-desktop",
+  "dest": "D:\\IT\\Gemi\\cocos\\week2\\dangHaiCocos-main\\bai2\\build\\web-desktop",
   "embedWebDebugger": false,
   "encryptJs": true,
   "excludeScenes": [],
@@ -240,22 +159,22 @@
   },
   "xxteaKey": "0602c2fd-8690-49",
   "zipCompressJs": true,
-  "project": "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2",
+  "project": "D:\\IT\\Gemi\\cocos\\week2\\dangHaiCocos-main\\bai2",
   "projectName": "hello_world",
   "debugBuildWorker": false
 }
-2021-12-06T09:53:58.172Z - normal: Building /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2
-2021-12-06T09:53:58.172Z - normal: Destination /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-desktop
-2021-12-06T09:53:58.174Z - normal: Delete /Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-desktop/subpackages/**/*,/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-desktop/**/*
-2021-12-06T09:53:59.383Z - normal: Start building assets
-2021-12-06T09:53:59.384Z - normal: Start spawn build-worker
-2021-12-06T09:53:59.948Z - normal: Finish spawn build-worker
-2021-12-06T09:53:59.948Z - normal: Start init build-worker
-2021-12-06T09:54:01.965Z - normal: Finish init build-worker
-2021-12-06T09:54:01.965Z - normal: Start build-assets in worker
-2021-12-06T09:54:02.191Z - normal: Finish build-assets in worker
-2021-12-06T09:54:02.193Z - normal: Finish building assets
-2021-12-06T09:54:02.200Z - normal: Start building plugin scripts
-2021-12-06T09:54:02.224Z - normal: Generating main.js from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/shares/main.js
-2021-12-06T09:54:02.229Z - normal: Generating html from /Applications/CocosCreator.app/Contents/Resources/static/build-templates/web-desktop/template/index.html
-2021-12-06T09:54:02.243Z - normal: Built to "/Users/fe-danghai-fresher/Desktop/Training/cocos_training/HW/bai2/build/web-desktop" successfully
+2021-12-06T16:52:12.138Z - normal: Building D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2
+2021-12-06T16:52:12.138Z - normal: Destination D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2\build\web-desktop
+2021-12-06T16:52:12.896Z - normal: Delete D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2\build\web-desktop\subpackages/**/*,D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2\build\web-desktop\**\*
+2021-12-06T16:54:39.610Z - normal: Start building assets
+2021-12-06T16:54:39.614Z - normal: Start spawn build-worker
+2021-12-06T16:54:41.654Z - normal: Finish spawn build-worker
+2021-12-06T16:54:41.655Z - normal: Start init build-worker
+2021-12-06T16:54:50.019Z - normal: Finish init build-worker
+2021-12-06T16:54:50.020Z - normal: Start build-assets in worker
+2021-12-06T16:54:50.898Z - normal: Finish build-assets in worker
+2021-12-06T16:54:50.916Z - normal: Finish building assets
+2021-12-06T16:54:50.945Z - normal: Start building plugin scripts
+2021-12-06T16:54:51.080Z - normal: Generating main.js from D:\IT\Gemi\app\cocos\CocosCreator\resources\static\build-templates\shares\main.js
+2021-12-06T16:54:51.205Z - normal: Generating html from D:\IT\Gemi\app\cocos\CocosCreator\resources\static\build-templates\web-desktop\template\index.html
+2021-12-06T16:54:51.251Z - normal: Built to "D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2\build\web-desktop" successfully
