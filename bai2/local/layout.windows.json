@@ -8,8 +8,8 @@
       "windowType": "dockable",
       "x": -8,
       "y": -8,
-      "width": 1552,
-      "height": 832,
+      "width": 1936,
+      "height": 1048,
       "layout": {
         "children": [
           {
@@ -19,23 +19,23 @@
                 "children": [
                   "hierarchy"
                 ],
-                "height": 362.7250061035156,
+                "height": 442,
                 "type": "panel",
-                "width": 245.6125030517578
+                "width": 307
               },
               {
                 "active": 0,
                 "children": [
                   "assets"
                 ],
-                "height": 399.2749938964844,
+                "height": 485,
                 "type": "panel",
-                "width": 245.6125030517578
+                "width": 307
               }
             ],
-            "height": 764,
+            "height": 929,
             "type": "dock-v",
-            "width": 245.6125030517578
+            "width": 307
           },
           {
             "children": [
@@ -44,9 +44,9 @@
                 "children": [
                   "scene"
                 ],
-                "height": 496,
+                "height": 661,
                 "type": "panel",
-                "width": 924.7125244140625
+                "width": 1152
               },
               {
                 "active": 0,
@@ -57,12 +57,12 @@
                 ],
                 "height": 266,
                 "type": "panel",
-                "width": 924.7125244140625
+                "width": 1152
               }
             ],
-            "height": 764,
+            "height": 929,
             "type": "dock-v",
-            "width": 924.7125244140625
+            "width": 1152
           },
           {
             "active": 0,
@@ -71,9 +71,9 @@
               "cocos-services",
               "node-library"
             ],
-            "height": 764,
+            "height": 929,
             "type": "panel",
-            "width": 365.6750183105469
+            "width": 457
           }
         ],
         "type": "dock-h"

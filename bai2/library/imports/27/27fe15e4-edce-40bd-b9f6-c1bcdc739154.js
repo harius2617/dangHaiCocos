@@ -24,7 +24,9 @@ cc.Class({
         userNameBox: cc.Node,
         pwBox: cc.Node,
         fullNameBox: cc.Node,
-        noti: cc.RichText
+        noti: cc.RichText,
+        item: cc.Prefab,
+        content: cc.Node
         // _fullName,
     },
 
@@ -45,12 +47,15 @@ cc.Class({
         }
     },
     userNameCheck: function userNameCheck() {
-        var str = this.userNameBox.getComponent(cc.EditBox).string;
-        if (str.length < 6) {
+        var str = this.userNameBox.getComponent(cc.EditBox);
+
+        if (str.string.length < 6) {
+            // userNameInput.getComponent(cc.Label).string = ''
             this.tooltipUserName.node.active = true;
             this.tooltipUserName.string = "User name must have at least 6 letters";
         } else {
             this.tooltipUserName.node.active = false;
+            // userNameInput.string = str.string
             return true;
         }
     },
@@ -82,6 +87,9 @@ cc.Class({
     sigUpBtn: function sigUpBtn() {
         if (this.userNameCheck() && this.passwordCheck() && this.fullNameCheck()) {
             this.showNoti();
+            var userNameInput = cc.instantiate(this.item);
+            this.content.addChild(userNameInput);
+            userNameInput.getComponent(cc.Label).string = "User name: " + this.userNameBox.getComponent(cc.EditBox).string;
         }
     }
 });

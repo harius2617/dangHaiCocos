@@ -19,6 +19,8 @@ cc.Class({
         pwBox: cc.Node,
         fullNameBox: cc.Node,
         noti: cc.RichText,
+        item: cc.Prefab,
+        content: cc.Node,
         // _fullName,
     },
 
@@ -41,8 +43,9 @@ cc.Class({
     }, 
     
     userNameCheck(){
-        const str = this.userNameBox.getComponent(cc.EditBox).string;
-        if(str.length < 6) {
+        const str = this.userNameBox.getComponent(cc.EditBox);
+     
+        if(str.string.length < 6) {
             this.tooltipUserName.node.active = true;
             this.tooltipUserName.string = "User name must have at least 6 letters";
         }else{
@@ -82,6 +85,9 @@ cc.Class({
     sigUpBtn() {
         if(this.userNameCheck() && this.passwordCheck() && this.fullNameCheck()){
             this.showNoti();
+            let userNameInput = cc.instantiate(this.item)
+            this.content.addChild(userNameInput)
+            userNameInput.getComponent(cc.Label).string = "User name: " + this.userNameBox.getComponent(cc.EditBox).string
         }
     },
 
