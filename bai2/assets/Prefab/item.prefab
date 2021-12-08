@@ -37,8 +37,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 131.33,
-      "height": 65.2
+      "width": 0,
+      "height": 25.2
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -48,7 +48,7 @@
     "_position": {
       "__type__": "cc.Vec3",
       "x": -102.2,
-      "y": -10.15,
+      "y": -4.031999999999998,
       "z": 0
     },
     "_scale": {
@@ -83,8 +83,8 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "ScrollView content\n\n",
-    "_N$string": "ScrollView content\n\n",
+    "_string": "",
+    "_N$string": "",
     "_fontSize": 16,
     "_lineHeight": 20,
     "_enableWrapText": true,

@@ -21,7 +21,7 @@ cc.Class({
         noti: cc.RichText,
         item: cc.Prefab,
         content: cc.Node,
-        // _fullName,
+        _listUser: [],
     },
 
     onLoad(){
@@ -43,15 +43,27 @@ cc.Class({
     }, 
     
     userNameCheck(){
-        const str = this.userNameBox.getComponent(cc.EditBox);
-     
-        if(str.string.length < 6) {
+        const str = this.userNameBox.getComponent(cc.EditBox).string;
+        if(str.length < 6) {
             this.tooltipUserName.node.active = true;
-            this.tooltipUserName.string = "User name must have at least 6 letters";
+            this.tooltipUserName.string = "Username must have at least 6 letters";
         }else{
             this.tooltipUserName.node.active = false;
             return true;
         }
+    },
+
+    checkUserInited(str) {
+        this._listUser.push(str);
+        for(let i = 0; i < this._listUser.length; i++) {
+            for(let j = i +1; j <= this._listUser.length; j ++){
+                if(this._listUser[i] === this._listUser[j]) {
+                    this._listUser.pop();
+                    return false;
+                }
+            }
+        }
+        return true;
     },
         
     passwordCheck(){
@@ -61,8 +73,9 @@ cc.Class({
             this.node.getComponent(cc.Button).interactable = true;
             return true;
         } else {
+            this.node.getComponent(cc.Button).interactable = false;
             this.tooltipPw.node.active = true;
-            this.tooltipPw.string = "Passwords must have at least 8 letters and \ncontain at least one uppercase letters and one numbers."
+            this.tooltipPw.string = "Passwords must have at least 8 letters and \ncontain at least one uppercase letters and one numbers.";
         }
     },
 
@@ -83,11 +96,19 @@ cc.Class({
     },
 
     sigUpBtn() {
-        if(this.userNameCheck() && this.passwordCheck() && this.fullNameCheck()){
+        if(this.fullNameCheck() && this.userNameCheck() && this.passwordCheck()){
             this.showNoti();
-            let userNameInput = cc.instantiate(this.item)
-            this.content.addChild(userNameInput)
-            userNameInput.getComponent(cc.Label).string = "User name: " + this.userNameBox.getComponent(cc.EditBox).string
+            if(this.checkUserInited(this.userNameBox.getComponent(cc.EditBox).string)){
+                let userNameInput = cc.instantiate(this.item)
+                this.content.addChild(userNameInput)
+                userNameInput.getComponent(cc.Label).string = "User name: " + this.userNameBox.getComponent(cc.EditBox).string;
+                this.userNameBox.getComponent(cc.EditBox).string = '';
+                this.fullNameBox.getComponent(cc.EditBox).string = '';
+                this.pwBox.getComponent(cc.EditBox).string = '';
+            }else {
+                this.tooltipUserName.node.active = true;
+                this.tooltipUserName.string = "Username already exist"
+            }
         }
     },
 

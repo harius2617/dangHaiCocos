@@ -1,87 +1,92 @@
-2021-12-07T16:04:46.709Z - normal: Load ~/.CocosCreator/settings.json
-2021-12-07T16:04:47.967Z - normal: Initializing Asset Database
-2021-12-07T16:04:48.111Z - normal: checking language setting...
-2021-12-07T16:04:48.111Z - normal: Language: en
-2021-12-07T16:04:49.478Z - success: preview server running at http://localhost:7456
-2021-12-07T16:04:49.478Z - success: protocol editor-framework registered
-2021-12-07T16:04:49.478Z - success: protocol app registered
-2021-12-07T16:04:49.478Z - success: protocol theme registered
-2021-12-07T16:04:49.478Z - success: protocol packages registered
-2021-12-07T16:04:49.478Z - success: protocol uuid registerred
-2021-12-07T16:04:49.478Z - success: protocol db registerred
-2021-12-07T16:04:49.478Z - success: protocol thumbnail registerred
-2021-12-07T16:04:49.478Z - success: protocol unpack registerred
-2021-12-07T16:04:49.478Z - success: protocol disable-commonjs registerred
-2021-12-07T16:04:52.070Z - normal: connected!
-2021-12-07T16:04:52.070Z - normal: Check project D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2
-2021-12-07T16:04:52.079Z - normal: Initializing project D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2
-2021-12-07T16:04:52.891Z - normal: Initializing Cocos2d
-2021-12-07T16:04:54.760Z - normal: Initializing engine extends
-2021-12-07T16:04:54.803Z - success: alipay-adapter loaded
-2021-12-07T16:04:54.811Z - success: asset-db-debugger loaded
-2021-12-07T16:04:54.814Z - success: baidu-adapter loaded
-2021-12-07T16:04:54.819Z - success: color-picker loaded
-2021-12-07T16:04:55.158Z - success: fb-audience-network loaded
-2021-12-07T16:04:55.293Z - success: fb-live-stream loaded
-2021-12-07T16:04:55.302Z - success: google-play-instant loaded
-2021-12-07T16:04:55.314Z - success: huawei-runtime loaded
-2021-12-07T16:04:55.737Z - success: cpk-publish loaded
-2021-12-07T16:04:55.739Z - success: jsb-adapter loaded
-2021-12-07T16:04:55.755Z - success: oppo-runtime loaded
-2021-12-07T16:04:55.764Z - success: package-manager loaded
-2021-12-07T16:04:56.001Z - success: qqplay-adapter loaded
-2021-12-07T16:04:56.003Z - success: runtime-dev-tools loaded
-2021-12-07T16:04:56.009Z - success: sdkbox loaded
-2021-12-07T16:04:56.014Z - success: tester loaded
-2021-12-07T16:04:56.017Z - success: ui-kit-preview-extra loaded
-2021-12-07T16:04:56.020Z - success: ui-kit-preview loaded
-2021-12-07T16:04:56.023Z - success: ui-kit loaded
-2021-12-07T16:04:56.035Z - success: vivo-runtime loaded
-2021-12-07T16:04:56.036Z - success: weapp-adapter loaded
-2021-12-07T16:04:56.038Z - success: xiaomi-adapter loaded
-2021-12-07T16:04:56.042Z - success: alipay-minigame loaded
-2021-12-07T16:04:56.126Z - success: assets loaded
-2021-12-07T16:04:56.129Z - success: builder loaded
-2021-12-07T16:04:56.756Z - success: cocos-services loaded
-2021-12-07T16:04:56.770Z - success: console loaded
-2021-12-07T16:04:56.834Z - success: fb-instant-games loaded
-2021-12-07T16:04:56.839Z - success: game-window loaded
-2021-12-07T16:04:56.842Z - success: google-instant-games loaded
-2021-12-07T16:04:56.851Z - success: hierarchy loaded
-2021-12-07T16:04:56.855Z - success: inspector loaded
-2021-12-07T16:04:56.858Z - success: keystore loaded
-2021-12-07T16:04:56.874Z - success: node-library loaded
-2021-12-07T16:04:56.877Z - success: package-asset loaded
-2021-12-07T16:04:56.880Z - success: preferences loaded
-2021-12-07T16:04:56.884Z - success: project-exporter loaded
-2021-12-07T16:04:56.887Z - success: project-importer loaded
-2021-12-07T16:04:56.893Z - success: project-settings loaded
-2021-12-07T16:04:56.899Z - success: scene loaded
-2021-12-07T16:04:56.905Z - success: simulator-debugger loaded
-2021-12-07T16:04:56.908Z - success: sprite-editor loaded
-2021-12-07T16:04:56.915Z - success: store loaded
-2021-12-07T16:04:56.925Z - success: timeline loaded
-2021-12-07T16:04:56.936Z - success: xiaomi-runtime loaded
-2021-12-07T16:05:00.693Z - info: Cocos Services load base data!
-2021-12-07T16:05:09.602Z - normal: Loading packages
-2021-12-07T16:05:09.624Z - normal: Watching packages
-2021-12-07T16:05:11.282Z - normal: Run Application
-2021-12-07T16:14:29.813Z - failed: [db-task][sync-changes] Failed to import asset D:\IT\Gemi\cocos\week2\dangHaiCocos-main\bai2\assets\Script\createAcc.js, message: Compile error: SyntaxError: D:/IT/Gemi/cocos/week2/dangHaiCocos-main/bai2/assets/Script/createAcc.js: Unexpected token (47:8)
-  45 |         const str = this.userNameBox.getComponent(cc.EditBox).string;
-  46 |         let 
-> 47 |         if(str.length < 6) {
-     |         ^
-  48 |             this.tooltipUserName.node.active = true;
-  49 |             this.tooltipUserName.string = "User name must have at least 6 letters";
+2021-12-08T03:12:31.034Z - normal: Load ~/.CocosCreator/settings.json
+2021-12-08T03:12:31.069Z - normal: Initializing Asset Database
+2021-12-08T03:12:31.071Z - normal: checking language setting...
+2021-12-08T03:12:31.071Z - normal: Language: en
+2021-12-08T03:12:31.500Z - success: preview server running at http://localhost:7456
+2021-12-08T03:12:31.513Z - success: protocol editor-framework registered
+2021-12-08T03:12:31.513Z - success: protocol app registered
+2021-12-08T03:12:31.513Z - success: protocol theme registered
+2021-12-08T03:12:31.513Z - success: protocol packages registered
+2021-12-08T03:12:31.513Z - success: protocol uuid registerred
+2021-12-08T03:12:31.513Z - success: protocol db registerred
+2021-12-08T03:12:31.513Z - success: protocol thumbnail registerred
+2021-12-08T03:12:31.513Z - success: protocol unpack registerred
+2021-12-08T03:12:31.514Z - success: protocol disable-commonjs registerred
+2021-12-08T03:12:32.786Z - normal: connected!
+2021-12-08T03:12:32.788Z - normal: Check project /Users/fe-danghai-fresher/Desktop/dangHaiCocos/bai2
+2021-12-08T03:12:32.789Z - normal: Initializing project /Users/fe-danghai-fresher/Desktop/dangHaiCocos/bai2
+2021-12-08T03:12:33.045Z - normal: Initializing Cocos2d
+2021-12-08T03:12:33.461Z - normal: Initializing engine extends
+2021-12-08T03:12:33.498Z - success: alipay-adapter loaded
+2021-12-08T03:12:33.514Z - success: asset-db-debugger loaded
+2021-12-08T03:12:33.516Z - success: baidu-adapter loaded
+2021-12-08T03:12:33.520Z - success: color-picker loaded
+2021-12-08T03:12:33.629Z - success: fb-audience-network loaded
+2021-12-08T03:12:33.662Z - success: fb-live-stream loaded
+2021-12-08T03:12:33.664Z - success: google-play-instant loaded
+2021-12-08T03:12:33.667Z - success: huawei-runtime loaded
+2021-12-08T03:12:33.811Z - success: cpk-publish loaded
+2021-12-08T03:12:33.811Z - success: jsb-adapter loaded
+2021-12-08T03:12:33.814Z - success: oppo-runtime loaded
+2021-12-08T03:12:33.825Z - success: package-manager loaded
+2021-12-08T03:12:33.892Z - success: qqplay-adapter loaded
+2021-12-08T03:12:33.893Z - success: runtime-dev-tools loaded
+2021-12-08T03:12:33.903Z - success: sdkbox loaded
+2021-12-08T03:12:33.913Z - success: tester loaded
+2021-12-08T03:12:33.921Z - success: ui-kit-preview-extra loaded
+2021-12-08T03:12:33.930Z - success: ui-kit-preview loaded
+2021-12-08T03:12:33.940Z - success: ui-kit loaded
+2021-12-08T03:12:33.943Z - success: vivo-runtime loaded
+2021-12-08T03:12:33.944Z - success: weapp-adapter loaded
+2021-12-08T03:12:33.944Z - success: xiaomi-adapter loaded
+2021-12-08T03:12:33.946Z - success: alipay-minigame loaded
+2021-12-08T03:12:33.982Z - success: assets loaded
+2021-12-08T03:12:33.992Z - success: builder loaded
+2021-12-08T03:12:34.159Z - success: cocos-services loaded
+2021-12-08T03:12:34.174Z - success: console loaded
+2021-12-08T03:12:34.196Z - success: fb-instant-games loaded
+2021-12-08T03:12:34.208Z - success: game-window loaded
+2021-12-08T03:12:34.209Z - success: google-instant-games loaded
+2021-12-08T03:12:34.220Z - success: hierarchy loaded
+2021-12-08T03:12:34.230Z - success: inspector loaded
+2021-12-08T03:12:34.231Z - success: keystore loaded
+2021-12-08T03:12:34.242Z - success: node-library loaded
+2021-12-08T03:12:34.243Z - success: package-asset loaded
+2021-12-08T03:12:34.244Z - success: preferences loaded
+2021-12-08T03:12:34.252Z - success: project-exporter loaded
+2021-12-08T03:12:34.262Z - success: project-importer loaded
+2021-12-08T03:12:34.273Z - success: project-settings loaded
+2021-12-08T03:12:34.283Z - success: scene loaded
+2021-12-08T03:12:34.284Z - success: simulator-debugger loaded
+2021-12-08T03:12:34.285Z - success: sprite-editor loaded
+2021-12-08T03:12:34.295Z - success: store loaded
+2021-12-08T03:12:34.308Z - success: timeline loaded
+2021-12-08T03:12:34.311Z - success: xiaomi-runtime loaded
+2021-12-08T03:12:34.902Z - failed: [db-task][init] Failed to import asset /Users/fe-danghai-fresher/Desktop/dangHaiCocos/bai2/assets/Script/createAcc.js, message: Compile error: SyntaxError: /Users/fe-danghai-fresher/Desktop/dangHaiCocos/bai2/assets/Script/createAcc.js: Invalid left-hand side in assignment expression (52:15)
   50 |         }else{
-    at Parser.pp$5.raise (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4454:13)
-    at Parser.pp.unexpected (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1761:8)
-    at Parser.pp$2.parseBindingAtom (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:3090:12)
-    at Parser.pp$1.parseVarHead (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2355:18)
-    at Parser.pp$1.parseVar (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2338:10)
-    at Parser.pp$1.parseVarStatement (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2169:8)
-    at Parser.pp$1.parseStatement (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:1861:19)
-    at Parser.pp$1.parseBlockBody (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2268:21)
-    at Parser.pp$1.parseBlock (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:2247:8)
-    at Parser.pp$3.parseFunctionBody (D:\IT\Gemi\app\cocos\CocosCreator\resources\app.asar\node_modules\babylon\lib\index.js:4235:22)
-2021-12-07T16:37:38.897Z - info: shutdown preview server
+  51 |             // this.checkUserInited(str)
+> 52 |             if(this.checkUserInited(str) = true) {
+     |                ^
+  53 |                 this.tooltipUserName.node.active = false;
+  54 |             }else {
+  55 |                 this.tooltipUserName.node.active = true;
+    at Parser.pp$5.raise (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:4454:13)
+    at Parser.pp$2.toAssignable (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3008:16)
+    at Parser.pp$3.parseMaybeAssign (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3349:45)
+    at Parser.pp$3.parseExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3306:19)
+    at Parser.pp$3.parseParenExpression (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:3789:18)
+    at Parser.pp$1.parseIfStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2058:20)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1846:19)
+    at Parser.pp$1.parseBlockBody (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2268:21)
+    at Parser.pp$1.parseBlock (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:2247:8)
+    at Parser.pp$1.parseStatement (/Applications/CocosCreator.app/Contents/Resources/app.asar/node_modules/babylon/lib/index.js:1868:19)
+2021-12-08T03:12:34.957Z - normal: Loading packages
+2021-12-08T03:12:34.961Z - normal: Watching packages
+2021-12-08T03:12:35.041Z - normal: Run Application
+2021-12-08T03:12:39.165Z - warn: Script attached to "signUp" in scene "BAI2.fire" is missing or invalid. Detailed information:
+Node path: "Canvas/signUp"
+Asset url: "db://assets/Scene/BAI2.fire"
+Script UUID: "27fe15e4-edce-40bd-b9f6-c1bcdc739154"
+Class ID: "27fe1Xk7c5Avbn2wbzcc5FU"
+
+2021-12-08T03:12:39.608Z - info: Cocos Services load base data!

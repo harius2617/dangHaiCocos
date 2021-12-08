@@ -26,8 +26,8 @@ cc.Class({
         fullNameBox: cc.Node,
         noti: cc.RichText,
         item: cc.Prefab,
-        content: cc.Node
-        // _fullName,
+        content: cc.Node,
+        _listUser: []
     },
 
     onLoad: function onLoad() {
@@ -47,17 +47,26 @@ cc.Class({
         }
     },
     userNameCheck: function userNameCheck() {
-        var str = this.userNameBox.getComponent(cc.EditBox);
-
-        if (str.string.length < 6) {
-            // userNameInput.getComponent(cc.Label).string = ''
+        var str = this.userNameBox.getComponent(cc.EditBox).string;
+        if (str.length < 6) {
             this.tooltipUserName.node.active = true;
-            this.tooltipUserName.string = "User name must have at least 6 letters";
+            this.tooltipUserName.string = "Username must have at least 6 letters";
         } else {
             this.tooltipUserName.node.active = false;
-            // userNameInput.string = str.string
             return true;
         }
+    },
+    checkUserInited: function checkUserInited(str) {
+        this._listUser.push(str);
+        for (var i = 0; i < this._listUser.length; i++) {
+            for (var j = i + 1; j <= this._listUser.length; j++) {
+                if (this._listUser[i] === this._listUser[j]) {
+                    this._listUser.pop();
+                    return false;
+                }
+            }
+        }
+        return true;
     },
     passwordCheck: function passwordCheck() {
         var strPw = this.pwBox.getComponent(cc.EditBox).string;
@@ -66,6 +75,7 @@ cc.Class({
             this.node.getComponent(cc.Button).interactable = true;
             return true;
         } else {
+            this.node.getComponent(cc.Button).interactable = false;
             this.tooltipPw.node.active = true;
             this.tooltipPw.string = "Passwords must have at least 8 letters and \ncontain at least one uppercase letters and one numbers.";
         }
@@ -85,11 +95,19 @@ cc.Class({
         this.noti.node.active = true;
     },
     sigUpBtn: function sigUpBtn() {
-        if (this.userNameCheck() && this.passwordCheck() && this.fullNameCheck()) {
+        if (this.fullNameCheck() && this.userNameCheck() && this.passwordCheck()) {
             this.showNoti();
-            var userNameInput = cc.instantiate(this.item);
-            this.content.addChild(userNameInput);
-            userNameInput.getComponent(cc.Label).string = "User name: " + this.userNameBox.getComponent(cc.EditBox).string;
+            if (this.checkUserInited(this.userNameBox.getComponent(cc.EditBox).string)) {
+                var userNameInput = cc.instantiate(this.item);
+                this.content.addChild(userNameInput);
+                userNameInput.getComponent(cc.Label).string = "User name: " + this.userNameBox.getComponent(cc.EditBox).string;
+                this.userNameBox.getComponent(cc.EditBox).string = '';
+                this.fullNameBox.getComponent(cc.EditBox).string = '';
+                this.pwBox.getComponent(cc.EditBox).string = '';
+            } else {
+                this.tooltipUserName.node.active = true;
+                this.tooltipUserName.string = "Username already exist";
+            }
         }
     }
 });
