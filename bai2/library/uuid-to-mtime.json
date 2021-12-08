@@ -430,8 +430,8 @@
     "relativePath": "Script"
   },
   "2d2f792f-a40c-49bb-a189-ed176a246e49": {
-    "asset": 1638933082488,
-    "meta": 1638933082499,
+    "asset": 1638946826360,
+    "meta": 1638946826370,
     "relativePath": "Scene/BAI2.fire"
   },
   "7b81d4e8-ec84-4716-968d-500ac1d78a54": {
@@ -470,13 +470,23 @@
     "relativePath": "Prefab"
   },
   "d1986c44-9db4-4eb4-9907-bfff5182547a": {
-    "asset": 1638930944960,
-    "meta": 1638930944979,
+    "asset": 1638946777533,
+    "meta": 1638946777537,
     "relativePath": "Prefab/item.prefab"
   },
   "27fe15e4-edce-40bd-b9f6-c1bcdc739154": {
     "asset": 1638937800519,
     "meta": 1638937801759,
     "relativePath": "Script/createAcc.js"
+  },
+  "63f73029-4eaa-423e-8112-383881a9d334": {
+    "asset": 1638945637271,
+    "meta": 1638945637337,
+    "relativePath": "pw.png"
+  },
+  "3be4a4b3-8510-418c-a0a8-93f32502d3dd": {
+    "asset": 1638945850080,
+    "meta": 1638945850127,
+    "relativePath": "pngwing.com.png"
   }
 }

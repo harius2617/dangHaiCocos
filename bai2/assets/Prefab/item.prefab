@@ -18,7 +18,7 @@
     "_parent": null,
     "_children": [],
     "_active": true,
-    "_level": 0,
+    "_level": 1,
     "_components": [
       {
         "__id__": 2
@@ -37,8 +37,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 0,
-      "height": 25.2
+      "width": 90.28,
+      "height": 37.8
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -47,8 +47,8 @@
     },
     "_position": {
       "__type__": "cc.Vec3",
-      "x": -102.2,
-      "y": -4.031999999999998,
+      "x": -80,
+      "y": -10,
       "z": 0
     },
     "_scale": {
@@ -83,10 +83,10 @@
       }
     ],
     "_useOriginalSize": false,
-    "_string": "",
-    "_N$string": "",
-    "_fontSize": 16,
-    "_lineHeight": 20,
+    "_string": "User list",
+    "_N$string": "User list",
+    "_fontSize": 25,
+    "_lineHeight": 30,
     "_enableWrapText": true,
     "_N$file": null,
     "_isSystemFontUsed": true,
